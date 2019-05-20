@@ -11,8 +11,6 @@
   "dependencies": {
     "instagram-profile-picture": "^1.0.5"
   }
-  "scripts":{
-    "start": "node index.js"
-  }
+ 
 
 }
