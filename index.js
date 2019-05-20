@@ -4,7 +4,7 @@ const ipp = require('instagram-profile-picture');
 var http = require('http');
 
 
-http.createServer(function (req, res) {
+http.createServer(function (req, res) {/*
   console.log(req.url);
   var u = req.url.replace(/[/]/g , '');
   console.log(u) 
@@ -20,6 +20,9 @@ res.end();
 
 });
     
+*/
 
+res.write('hello')
+res.end(); 
 }).listen(8082);
 
