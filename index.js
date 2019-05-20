@@ -4,7 +4,7 @@ const ipp = require('instagram-profile-picture');
 var https = require('https');
 
 
-http.createServer(function (req, res) {/*
+https.createServer(function (req, res) {/*
   console.log(req.url);
   var u = req.url.replace(/[/]/g , '');
   console.log(u) 
