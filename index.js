@@ -10,6 +10,7 @@ port = process.env.PORT || process.argv[2] || 8080;
 let server = http.createServer(function (req, res) {
 
  pass = '123';
+ clientToken = '222';
  
         console.log(req.url);
   var u = req.url.replace(/[/]/g , '');
